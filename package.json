@@ -14,5 +14,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "4.16.3"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0"
   }
 }

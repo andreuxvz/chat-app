@@ -1,15 +1,14 @@
 const path = require('path');
 const Express = require('express');
 
-
 const publicPath = path.join(__dirname, '..', 'public');
-//const port = proccess.env.PORT || 3000;
+const port = procces.env.PORT || 3000;
 var app = Express();
 
 app.use(Express.static(publicPath));
 
-app.listen( 3000, () => {
-  console.log('server is up on this port : ');
+app.listen( port, () => {
+  console.log('server is up on this prot');
 }) ;
 
 console.log(__dirname+ '../public');
